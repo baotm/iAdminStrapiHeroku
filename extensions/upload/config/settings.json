@@ -1,0 +1,11 @@
+{
+  "provider": "aws-s3",
+  "providerOptions": {
+    "accessKeyId": "AKIAVVT7SQAVK3L33VOB",
+    "secretAccessKey": "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",
+    "region": "ap-northeast-1",
+    "params": {
+      "Bucket": "iadminpicture"
+    }
+  }
+}
