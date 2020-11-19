@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "loai_tai_sans",
+  "info": {
+    "name": "LoaiTaiSan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Ten": {
+      "type": "string"
+    },
+    "thuoctinh_mondo": {
+      "collection": "thuoc-t-inh-mon-do"
+    }
+  }
+}

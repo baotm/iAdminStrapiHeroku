@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nhat-ki-truy-caps",
+      "handler": "nhat-ki-truy-cap.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nhat-ki-truy-caps/count",
+      "handler": "nhat-ki-truy-cap.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nhat-ki-truy-caps/:id",
+      "handler": "nhat-ki-truy-cap.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nhat-ki-truy-caps",
+      "handler": "nhat-ki-truy-cap.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nhat-ki-truy-caps/:id",
+      "handler": "nhat-ki-truy-cap.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nhat-ki-truy-caps/:id",
+      "handler": "nhat-ki-truy-cap.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

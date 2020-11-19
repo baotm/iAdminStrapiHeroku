@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thuoc_t_inh_mon_dos",
+  "info": {
+    "name": "ThuocTInhMonDo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "tenthuoctinh": {
+      "type": "string"
+    },
+    "KieuThuocTinh": {
+      "type": "enumeration",
+      "enum": [
+        "String",
+        "Number",
+        "Boolean"
+      ]
+    },
+    "ChuThich": {
+      "type": "string"
+    },
+    "DonViTinh": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "khos",
+  "info": {
+    "name": "Kho"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "TenKho": {
+      "type": "string"
+    },
+    "ViTri": {
+      "type": "string"
+    }
+  }
+}

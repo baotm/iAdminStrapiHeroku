@@ -1,27 +1,30 @@
 {
   "kind": "collectionType",
-  "collectionName": "logs",
+  "collectionName": "trackings",
   "info": {
-    "name": "Log",
+    "name": "Tracking",
     "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
+    "TenHanhDong": {
       "type": "string"
     },
-    "Info": {
-      "type": "json"
+    "GhiChu": {
+      "type": "richtext"
     },
-    "date": {
-      "type": "datetime"
+    "kho": {
+      "model": "kho"
     },
     "account": {
       "model": "accounts"
+    },
+    "Ngay": {
+      "type": "datetime"
     }
   }
 }

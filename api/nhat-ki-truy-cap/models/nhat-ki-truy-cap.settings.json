@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nhat_ki_truy_caps",
+  "info": {
+    "name": "NhatKiTruyCap"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "accounts": {
+      "model": "accounts"
+    },
+    "Date": {
+      "type": "datetime"
+    },
+    "HanhDong": {
+      "type": "enumeration",
+      "enum": [
+        "DANGNHAP",
+        "DANGXUAT"
+      ]
+    },
+    "IP": {
+      "type": "string"
+    }
+  }
+}

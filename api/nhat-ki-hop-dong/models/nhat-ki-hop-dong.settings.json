@@ -1,27 +1,29 @@
 {
   "kind": "collectionType",
-  "collectionName": "logs",
+  "collectionName": "nhat_ki_hop_dongs",
   "info": {
-    "name": "Log",
-    "description": ""
+    "name": "NhatKiHopDong"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
+    "Ten": {
       "type": "string"
     },
-    "Info": {
-      "type": "json"
-    },
-    "date": {
+    "Ngay": {
       "type": "datetime"
+    },
+    "GhiChu": {
+      "type": "richtext"
     },
     "account": {
       "model": "accounts"
+    },
+    "SoTien": {
+      "type": "biginteger"
     }
   }
 }

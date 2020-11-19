@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thuoc-t-inh-mon-dos",
+      "handler": "thuoc-t-inh-mon-do.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thuoc-t-inh-mon-dos/count",
+      "handler": "thuoc-t-inh-mon-do.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thuoc-t-inh-mon-dos/:id",
+      "handler": "thuoc-t-inh-mon-do.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thuoc-t-inh-mon-dos",
+      "handler": "thuoc-t-inh-mon-do.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thuoc-t-inh-mon-dos/:id",
+      "handler": "thuoc-t-inh-mon-do.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thuoc-t-inh-mon-dos/:id",
+      "handler": "thuoc-t-inh-mon-do.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
