@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "nhat_ki_truy_caps",
   "info": {
-    "name": "NhatKiTruyCap"
+    "name": "NhatKiTruyCap",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "accounts": {
-      "model": "accounts"
-    },
     "Date": {
       "type": "datetime"
     },
@@ -24,6 +22,9 @@
       ]
     },
     "IP": {
+      "type": "string"
+    },
+    "account_id": {
       "type": "string"
     }
   }
