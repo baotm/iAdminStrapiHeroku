@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/listuseronlines",
+      "handler": "listuseronline.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/listuseronlines/count",
+      "handler": "listuseronline.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/listuseronlines/:id",
+      "handler": "listuseronline.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/listuseronlines",
+      "handler": "listuseronline.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/listuseronlines/:id",
+      "handler": "listuseronline.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/listuseronlines/:id",
+      "handler": "listuseronline.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

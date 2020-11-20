@@ -1,31 +1,28 @@
 {
   "kind": "collectionType",
-  "collectionName": "nhat_ki_truy_caps",
+  "collectionName": "nhatkitruycaps",
   "info": {
-    "name": "NhatKiTruyCap",
+    "name": "nhatkitruycap",
     "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
-    "Date": {
-      "type": "datetime"
+    "ip": {
+      "type": "string"
     },
-    "HanhDong": {
+    "type": {
       "type": "enumeration",
       "enum": [
         "DANGNHAP",
         "DANGXUAT"
       ]
     },
-    "IP": {
-      "type": "string"
-    },
-    "account_id": {
-      "type": "string"
+    "accounts": {
+      "model": "accounts"
     }
   }
 }

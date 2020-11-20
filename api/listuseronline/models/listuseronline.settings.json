@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listuseronlines",
+  "info": {
+    "name": "listuseronline",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "list": {
+      "type": "json"
+    }
+  }
+}

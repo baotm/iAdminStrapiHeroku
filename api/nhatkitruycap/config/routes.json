@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/nhat-ki-truy-caps",
-      "handler": "nhat-ki-truy-cap.find",
+      "path": "/nhatkitruycaps",
+      "handler": "nhatkitruycap.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/nhat-ki-truy-caps/count",
-      "handler": "nhat-ki-truy-cap.count",
+      "path": "/nhatkitruycaps/count",
+      "handler": "nhatkitruycap.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/nhat-ki-truy-caps/:id",
-      "handler": "nhat-ki-truy-cap.findOne",
+      "path": "/nhatkitruycaps/:id",
+      "handler": "nhatkitruycap.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/nhat-ki-truy-caps",
-      "handler": "nhat-ki-truy-cap.create",
+      "path": "/nhatkitruycaps",
+      "handler": "nhatkitruycap.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/nhat-ki-truy-caps/:id",
-      "handler": "nhat-ki-truy-cap.update",
+      "path": "/nhatkitruycaps/:id",
+      "handler": "nhatkitruycap.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/nhat-ki-truy-caps/:id",
-      "handler": "nhat-ki-truy-cap.delete",
+      "path": "/nhatkitruycaps/:id",
+      "handler": "nhatkitruycap.delete",
       "config": {
         "policies": []
       }
