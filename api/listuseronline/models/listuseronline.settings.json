@@ -11,8 +11,23 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "list": {
-      "type": "json"
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "account_id": {
+      "type": "string"
     }
   }
 }
