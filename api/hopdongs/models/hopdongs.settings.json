@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hopdongs",
+  "info": {
+    "name": "hopdongs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "maso": {
+      "type": "string"
+    },
+    "sodienthoai": {
+      "type": "string"
+    },
+    "tenkhach": {
+      "type": "string"
+    },
+    "loaitaisan": {
+      "type": "string"
+    },
+    "ghichuhopdong": {
+      "type": "text"
+    },
+    "thongtinmondo": {
+      "type": "text"
+    },
+    "sotien": {
+      "type": "biginteger"
+    },
+    "tienno": {
+      "type": "biginteger"
+    },
+    "thongtinnhanvien": {
+      "type": "json"
+    },
+    "tinhtrang": {
+      "type": "string"
+    },
+    "ngayhethan": {
+      "type": "datetime"
+    },
+    "laixuat": {
+      "type": "integer"
+    },
+    "ngaythe": {
+      "type": "datetime"
+    },
+    "urlPic": {
+      "type": "string"
+    },
+    "thoihancam": {
+      "type": "integer"
+    },
+    "kholuu": {
+      "type": "string"
+    },
+    "diachi": {
+      "type": "string",
+      "default": "phu quy"
+    }
+  }
+}

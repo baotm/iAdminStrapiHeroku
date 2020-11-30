@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chungtus",
+      "handler": "chungtu.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chungtus/count",
+      "handler": "chungtu.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chungtus/:id",
+      "handler": "chungtu.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/chungtus",
+      "handler": "chungtu.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chungtus/:id",
+      "handler": "chungtu.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chungtus/:id",
+      "handler": "chungtu.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nhatkihopdongs",
+      "handler": "nhatkihopdong.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nhatkihopdongs/count",
+      "handler": "nhatkihopdong.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nhatkihopdongs/:id",
+      "handler": "nhatkihopdong.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nhatkihopdongs",
+      "handler": "nhatkihopdong.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nhatkihopdongs/:id",
+      "handler": "nhatkihopdong.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nhatkihopdongs/:id",
+      "handler": "nhatkihopdong.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/loaitaisans",
+      "handler": "loaitaisan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/loaitaisans/count",
+      "handler": "loaitaisan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/loaitaisans/:id",
+      "handler": "loaitaisan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/loaitaisans",
+      "handler": "loaitaisan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/loaitaisans/:id",
+      "handler": "loaitaisan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/loaitaisans/:id",
+      "handler": "loaitaisan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

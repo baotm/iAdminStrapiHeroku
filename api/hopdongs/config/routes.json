@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hopdongs",
+      "handler": "hopdongs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hopdongs/count",
+      "handler": "hopdongs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hopdongs/:id",
+      "handler": "hopdongs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hopdongs",
+      "handler": "hopdongs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hopdongs/:id",
+      "handler": "hopdongs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hopdongs/:id",
+      "handler": "hopdongs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

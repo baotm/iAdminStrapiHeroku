@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "trackings",
+  "collectionName": "nhatkihopdongs",
   "info": {
-    "name": "Tracking",
+    "name": "nhatkihopdong",
     "description": ""
   },
   "options": {
@@ -11,20 +11,21 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "TenHanhDong": {
+    "Ten": {
       "type": "string"
     },
-    "GhiChu": {
-      "type": "richtext"
-    },
-    "hopdong_id": {
-      "type": "string"
-    },
-    "kho": {
-      "type": "json"
+    "SoTien": {
+      "type": "biginteger"
     },
     "account": {
       "type": "json"
+    },
+    "see": {
+      "type": "boolean",
+      "default": false
+    },
+    "hopdong_id": {
+      "type": "string"
     }
   }
 }

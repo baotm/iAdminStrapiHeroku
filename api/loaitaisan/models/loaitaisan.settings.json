@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "loaitaisans",
+  "info": {
+    "name": "Loaitaisan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Tentaisan": {
+      "type": "string"
+    },
+    "KhoLuu": {
+      "type": "json"
+    },
+    "DonViTinh": {
+      "type": "string"
+    },
+    "ThuocTinh": {
+      "type": "json"
+    },
+    "TienTo": {
+      "type": "string"
+    },
+    "thoihancam": {
+      "type": "json"
+    },
+    "laixuat": {
+      "type": "json"
+    },
+    "display": {
+      "type": "string"
+    }
+  }
+}

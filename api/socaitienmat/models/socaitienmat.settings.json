@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socaitienmats",
+  "info": {
+    "name": "socaitienmat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "ngaybatdau": {
+      "type": "datetime"
+    },
+    "ngayketthuc": {
+      "type": "date"
+    },
+    "sodudauki": {
+      "type": "biginteger"
+    },
+    "soducuoiki": {
+      "type": "biginteger"
+    },
+    "tinhtrang": {
+      "type": "boolean"
+    },
+    "danhsachchungtu": {
+      "type": "json"
+    }
+  }
+}

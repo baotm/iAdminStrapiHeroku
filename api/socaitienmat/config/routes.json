@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/socaitienmats",
+      "handler": "socaitienmat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/socaitienmats/count",
+      "handler": "socaitienmat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/socaitienmats/:id",
+      "handler": "socaitienmat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/socaitienmats",
+      "handler": "socaitienmat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/socaitienmats/:id",
+      "handler": "socaitienmat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/socaitienmats/:id",
+      "handler": "socaitienmat.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
