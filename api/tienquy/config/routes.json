@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tienquy",
+      "handler": "tienquy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tienquy",
+      "handler": "tienquy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tienquy",
+      "handler": "tienquy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

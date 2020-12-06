@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "tienquies",
+  "info": {
+    "name": "tienquy",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sotien": {
+      "type": "biginteger"
+    },
+    "sotienquy": {
+      "type": "uid"
+    }
+  }
+}

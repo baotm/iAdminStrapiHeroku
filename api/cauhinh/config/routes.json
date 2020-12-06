@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cauhinh",
+      "handler": "cauhinh.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cauhinh",
+      "handler": "cauhinh.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cauhinh",
+      "handler": "cauhinh.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cauhinhtruycap",
+      "handler": "cauhinhtruycap.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cauhinhtruycap",
+      "handler": "cauhinhtruycap.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cauhinhtruycap",
+      "handler": "cauhinhtruycap.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

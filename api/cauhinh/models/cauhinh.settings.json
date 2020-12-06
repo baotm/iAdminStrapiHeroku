@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "cauhinhs",
+  "info": {
+    "name": "cauhinh",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "thoigiannhacnho": {
+      "type": "integer"
+    },
+    "thoigianthanhly": {
+      "type": "integer"
+    },
+    "muctieu": {
+      "type": "json"
+    },
+    "tienquy": {
+      "type": "biginteger"
+    },
+    "diachi": {
+      "type": "string"
+    },
+    "sodienthoai": {
+      "type": "string"
+    },
+    "slogan": {
+      "type": "string"
+    },
+    "nguoichiutrachnhiem": {
+      "type": "string"
+    },
+    "config": {
+      "type": "uid",
+      "targetField": "sodienthoai"
+    }
+  }
+}
