@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "decalcamdos",
+  "info": {
+    "name": "decalcamdo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    }
+  }
+}

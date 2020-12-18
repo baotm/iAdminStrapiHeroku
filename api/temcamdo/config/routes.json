@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/temcamdo",
+      "handler": "temcamdo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/temcamdo",
+      "handler": "temcamdo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/temcamdo",
+      "handler": "temcamdo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

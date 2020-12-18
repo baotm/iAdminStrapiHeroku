@@ -1,0 +1,57 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/decalcamdos",
+      "handler": "decalcamdo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/decalcamdos/deleteMany",
+      "handler": "decalcamdo.deleteMany"
+    },
+    {
+      "method": "GET",
+      "path": "/decalcamdos/count",
+      "handler": "decalcamdo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/decalcamdos/:id",
+      "handler": "decalcamdo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/decalcamdos",
+      "handler": "decalcamdo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/decalcamdos/:id",
+      "handler": "decalcamdo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/decalcamdos/:id",
+      "handler": "decalcamdo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

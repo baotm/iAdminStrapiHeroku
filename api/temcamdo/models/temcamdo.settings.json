@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "temcamdos",
+  "info": {
+    "name": "temcamdo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    }
+  }
+}
