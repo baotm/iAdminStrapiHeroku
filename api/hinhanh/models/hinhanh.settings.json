@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hinhanhs",
+  "info": {
+    "name": "hinhanh"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "hopdongid": {
+      "type": "string"
+    },
+    "hinhanh": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "nhanvienid": {
+      "type": "string"
+    },
+    "noidung": {
+      "type": "text"
+    },
+    "tinhtrang": {
+      "type": "boolean"
+    },
+    "accountidkiemdinh": {
+      "type": "string"
+    },
+    "ghichu": {
+      "type": "text"
+    }
+  }
+}

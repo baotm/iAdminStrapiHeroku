@@ -1,11 +1,10 @@
+
 {
-  "provider": "aws-s3",
-  "providerOptions": {
-    "accessKeyId": "AKIAVVT7SQAVNYEBSSNJ",
-    "secretAccessKey": "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",
-    "region": "ap-northeast-1",
-    "params": {
-      "Bucket": "iadminpicture"
-    }
+  "provider": "cloudinary",
+  "providerOptions": 
+  {     
+    "cloud_name":"strapibulk",
+    "api_key": "689342776277122",               
+    "api_secret":"YCoSpOUCK67u8NhAVKdzQn7yxQo"
   }
 }
