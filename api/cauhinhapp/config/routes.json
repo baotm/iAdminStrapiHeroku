@@ -1,0 +1,19 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cauhinhapp",
+      "handler": "cauhinhapp.find"
+    },
+    {
+      "method": "PUT",
+      "path": "/cauhinhapp",
+      "handler": "cauhinhapp.update"
+    },
+    {
+      "method": "DELETE",
+      "path": "/cauhinhapp",
+      "handler": "cauhinhapp.delete"
+    }
+  ]
+}

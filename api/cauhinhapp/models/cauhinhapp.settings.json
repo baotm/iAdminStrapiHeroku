@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "cauhinhapps",
+  "info": {
+    "name": "cauhinhapp"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "cauhinhcamera": {
+      "type": "json"
+    },
+    "uid": {
+      "type": "uid"
+    }
+  }
+}

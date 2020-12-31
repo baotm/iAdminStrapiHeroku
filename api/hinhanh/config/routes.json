@@ -33,6 +33,11 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/hinhanhsupload",
+      "handler": "hinhanh.hinhanhupload"
+    },
+    {
       "method": "PUT",
       "path": "/hinhanhs/:id",
       "handler": "hinhanh.update",
