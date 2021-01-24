@@ -1,6 +1,6 @@
 {
   "name": "i-admin",
-  "private": false,
+  "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
@@ -13,22 +13,22 @@
     "async-busboy": "^1.0.1",
     "axios": "^0.21.1",
     "form-data": "^3.0.0",
-    "knex": "<0.20.0",
+    "knex": "<0.20.x",
     "needle": "^2.5.2",
     "sqlite3": "latest",
-    "strapi": "3.3.3",
-    "strapi-admin": "^3.4.4",
-    "strapi-connector-bookshelf": "3.3.3",
+    "strapi": "3.2.5",
+    "strapi-admin": "3.2.5",
+    "strapi-connector-bookshelf": "3.2.4",
+    "strapi-plugin-content-manager": "3.2.5",
+    "strapi-plugin-content-type-builder": "3.2.5",
+    "strapi-plugin-email": "3.2.5",
+    "strapi-plugin-graphql": "3.2.5",
+    "strapi-plugin-upload": "3.2.5",
+    "strapi-plugin-users-permissions": "3.2.5",
+    "strapi-utils": "3.2.5",
     "strapi-connector-mongoose": "^3.3.3",
-    "strapi-plugin-content-manager": "3.3.3",
-    "strapi-plugin-content-type-builder": "3.3.3",
-    "strapi-plugin-email": "3.3.3",
-    "strapi-plugin-graphql": "3.3.3",
-    "strapi-plugin-upload": "3.3.3",
-    "strapi-plugin-users-permissions": "3.3.3",
     "strapi-provider-upload-aws-s3": "^3.3.3",
     "strapi-provider-upload-cloudinary": "^3.4.0",
-    "strapi-utils": "3.3.3",
     "xmlhttprequest": "^1.8.0"
   },
   "author": {
@@ -38,7 +38,7 @@
     "uuid": "7ac9de5a-621a-4224-927e-3b0ac978e8c5"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x'",
+    "node": ">=10.16.0 <=15.x.x'",
     "npm": ">=6.x"
   },
   "license": "MIT"
