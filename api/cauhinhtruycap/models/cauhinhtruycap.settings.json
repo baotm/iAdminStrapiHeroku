@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "cauhinhtruycaps",
   "info": {
     "name": "cauhinhtruycap"
@@ -7,13 +7,13 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
-    "role": {
+    "name": {
       "type": "string"
     },
-    "contentAccess": {
+    "listView": {
       "type": "json"
     }
   }

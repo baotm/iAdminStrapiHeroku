@@ -20,33 +20,25 @@
       "method": "GET",
       "path": "/hopdongs/:id",
       "handler": "hopdongs.findOne",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     },
     {
       "method": "POST",
       "path": "/hopdongs",
       "handler": "hopdongs.create",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     },
     {
       "method": "PUT",
       "path": "/hopdongs/:id",
       "handler": "hopdongs.update",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     },
     {
       "method": "DELETE",
       "path": "/hopdongs/:id",
       "handler": "hopdongs.delete",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     }
   ]
 }

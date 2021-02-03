@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "hinhanhs",
   "info": {
-    "name": "hinhanh"
+    "name": "hinhanh",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -24,20 +25,22 @@
       "plugin": "upload",
       "required": false
     },
-    "nhanvienid": {
-      "type": "string"
-    },
     "noidung": {
-      "type": "text"
+      "type": "text",
+      "default": "chưa"
     },
     "tinhtrang": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "accountidkiemdinh": {
       "type": "string"
     },
     "ghichu": {
       "type": "text"
+    },
+    "thongtinhanvien": {
+      "type": "json"
     }
   }
 }

@@ -2,15 +2,39 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/cauhinhtruycap",
+      "path": "/cauhinhtruycaps",
       "handler": "cauhinhtruycap.find",
       "config": {
         "policies": []
       }
     },
     {
+      "method": "GET",
+      "path": "/cauhinhtruycaps/count",
+      "handler": "cauhinhtruycap.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cauhinhtruycaps/:id",
+      "handler": "cauhinhtruycap.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cauhinhtruycaps",
+      "handler": "cauhinhtruycap.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
-      "path": "/cauhinhtruycap",
+      "path": "/cauhinhtruycaps/:id",
       "handler": "cauhinhtruycap.update",
       "config": {
         "policies": []
@@ -18,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/cauhinhtruycap",
+      "path": "/cauhinhtruycaps/:id",
       "handler": "cauhinhtruycap.delete",
       "config": {
         "policies": []

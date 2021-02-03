@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "review",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "accountreview": {
+      "type": "json"
+    },
+    "score": {
+      "type": "integer"
+    },
+    "accountedit": {
+      "type": "json"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "ghichu": {
+      "type": "text"
+    },
+    "hopdongid": {
+      "type": "string"
+    },
+    "hinhanhid": {
+      "type": "string"
+    },
+    "vitrisai": {
+      "type": "json"
+    }
+  }
+}

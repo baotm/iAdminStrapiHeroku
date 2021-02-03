@@ -4,33 +4,25 @@
       "method": "GET",
       "path": "/hinhanhs",
       "handler": "hinhanh.find",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     },
     {
       "method": "GET",
       "path": "/hinhanhs/count",
       "handler": "hinhanh.count",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     },
     {
       "method": "GET",
       "path": "/hinhanhs/:id",
       "handler": "hinhanh.findOne",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     },
     {
       "method": "POST",
       "path": "/hinhanhs",
       "handler": "hinhanh.create",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     },
     {
       "method": "POST",
@@ -41,17 +33,13 @@
       "method": "PUT",
       "path": "/hinhanhs/:id",
       "handler": "hinhanh.update",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     },
     {
       "method": "DELETE",
       "path": "/hinhanhs/:id",
       "handler": "hinhanh.delete",
-      "config": {
-        "policies": []
-      }
+      "config": {}
     }
   ]
 }

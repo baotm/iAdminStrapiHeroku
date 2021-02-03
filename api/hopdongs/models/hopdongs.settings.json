@@ -62,6 +62,13 @@
     "diachi": {
       "type": "string",
       "default": "phu quy"
+    },
+    "reviewStatus": {
+      "type": "boolean",
+      "default": false
+    },
+    "hinhanhid": {
+      "type": "string"
     }
   }
 }
